@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-Number=25
+Number=$1
 
-if [ $Number -gt 20]; then
+if [ $Nu mber -gt 20 ]; then
       echo "Given number: $Number IS GREAT"
 fi 
