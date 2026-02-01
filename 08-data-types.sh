@@ -13,4 +13,6 @@ FRUITS=(Apples,Bananna, pomo)
 
 echo "Frurits are: ${FRUITS[@]}"
 
+echo "Frurits are: ${FRUITS[*]}"
+
 
