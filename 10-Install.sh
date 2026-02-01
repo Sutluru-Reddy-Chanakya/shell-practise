@@ -2,6 +2,8 @@
 
 USERID=$(id -u)
 
+echo "$USERID"
+
 if [$USERID -eq 0] ; then
     echo "please run this script with root assess"
 
