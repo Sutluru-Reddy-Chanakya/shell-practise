@@ -9,3 +9,14 @@ if [ $USERID -ne 0 ]; then
     exit 0
 fi
 
+dnf install nginx -y
+
+if [ $? -ne 0 ]; then
+
+    echo "Nginx"
+    exit 1
+else 
+  echo "Nginx"
+fi
+
+
