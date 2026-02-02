@@ -20,3 +20,25 @@ else
 fi
 
 
+dnf install nodejs -y
+
+if [ $? -ne 0 ]; then
+
+    echo "nodejs"
+    exit 1
+else 
+  echo "nodejs"
+fi
+
+
+dnf install mysql -y
+
+if [ $? -ne 0 ]; then
+
+    echo "mysql"
+    exit 1
+else 
+  echo "mysql"
+fi
+
+
