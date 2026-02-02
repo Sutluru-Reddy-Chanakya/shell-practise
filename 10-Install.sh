@@ -13,6 +13,7 @@ fi
 dnf install my sql -y
 
 echo "installing Nginx"
+
 dnf install nginx -y
 
 if [ $? -ne 0]; then
@@ -23,7 +24,7 @@ else
    echo "sucess nginx"
 fi
 
-dnf nodejs -y
+dnf install nodejs -y
 
 if [ $? -ne 0]; then
      echo "failure nodejs"
