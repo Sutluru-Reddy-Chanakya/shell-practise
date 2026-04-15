@@ -35,3 +35,21 @@ else
 fi
 
    
+# NOTES:
+
+
+
+# EXIT code
+# ==========
+# 0-127
+
+# 0 -> success
+# anything else -> failure
+
+
+
+if root user then success
+otherwise failure
+
+root user id -> 0
+other users -> greater than 0
