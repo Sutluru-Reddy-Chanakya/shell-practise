@@ -9,7 +9,7 @@ if [ $USERID -ne 0 ]; then
     exit 1
 fi
 
-mkdir -p $LOGS_FOLDER
+mkdir -p $LOGS_FOLDER             #-p = "Parents" - create parent directories as needed
 
 VALIDATE(){
     if [ $1 -ne 0 ]; then
