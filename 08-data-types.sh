@@ -9,11 +9,16 @@ echo "sum is $SUM"
 
 ####### Array  ###########
 
-FRUITS=(Apples,Bananna, pomo)
+FRUITS=("Apples" "Bananna" "pomo")
 
 echo "Frurits are: ${FRUITS[@]}"
 
+
+FRUITS=(Apples, Bananna , pomo)
 echo "Frurits are: ${FRUITS[*]}"
+echo "Frurits are: ${FRUITS[0]}"
+echo "Frurits are: ${FRUITS[1]}"
+echo "Frurits are: ${FRUITS[2]}"
 
 
 # data types
