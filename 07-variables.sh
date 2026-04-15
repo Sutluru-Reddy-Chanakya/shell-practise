@@ -4,7 +4,7 @@
 
 echo "all args passed to script: $@"
 echo "No.of Varibles passed script: $@"
-echo "scripts name: $)"
+echo "scripts name: $0)"
 echo "present directory :$PWD"
 echo "who is running: $USER"
 echo "Home directory of current user: $HOME" 
