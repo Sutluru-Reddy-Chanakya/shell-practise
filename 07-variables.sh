@@ -35,3 +35,15 @@ echo "All args passed to script: $@"
 # =========
 # $@ treats args seperately
 # $* treats as single args
+
+# EX:
+# sh 07-variables.sh Hello world "good morning"
+
+
+# Using $@:
+#   - hello
+#   - world
+#   - nice day
+
+# Using $*:
+#   - hello world nice day

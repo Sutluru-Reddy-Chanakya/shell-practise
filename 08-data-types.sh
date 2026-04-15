@@ -16,3 +16,21 @@ echo "Frurits are: ${FRUITS[@]}"
 echo "Frurits are: ${FRUITS[*]}"
 
 
+# data types
+# ==============
+# variables are holding data..
+
+# mobile number -> numbers
+# 	integers -> -33,768 -> 33,768
+# 	float -> 45.90
+# 	decimanl -> long number
+# 	complex -> 4+8i
+# names -> string
+# major? -> yes or no ----boolean
+# skills -> devops aws docker kubernetes -> list of skills
+# skills -> map or dictionary
+
+# key           ->  value
+# devops        ->  4
+# docker        ->  3
+# kubernetes    ->  2
